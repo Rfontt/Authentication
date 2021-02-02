@@ -1,0 +1,115 @@
+body {
+	margin: 0;
+}
+
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+}
+
+.SignIn-aside {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 561px;
+	background: #1E90FF;
+	flex-direction: column;
+
+}
+
+.SignIn-aside h1 {
+	font-size: 50px;
+	color: #FFF;
+	font-weight: bold;
+}
+
+.SignIn-aside span {
+	font-size: 25px;
+	color: #FFF;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.SignIn-aside button {
+	border-radius: 8px;
+	padding: 2px;
+	width: 150px;
+	height: 40px;
+	background: #1E90FF;
+	color: #fff;
+	font-size: 18px;
+	margin-top: 2px;
+	border-color: #fff;
+}
+
+.div-formAndImg {
+	display: flex;
+	flex-direction: column;
+	background: white;
+	margin-top: 250px;
+}
+
+.create-account {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: white;
+}
+
+
+.create-account form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.create-account form legend{
+	margin-left: 100px;
+	margin-bottom: 10px;
+	font-size: 30px;
+	color: #1E90FF;
+	font-weight: bold;
+}
+
+.create-account form input{
+	margin-left: 100px;
+	width: 500px;
+	height: 30px;
+	background: #DCDCDC;
+	box-shadow: 0 0 0 0;
+	border-color: transparent;
+	border-radius: 8px;
+	margin-top: 10px;
+	padding: 5px;
+}
+
+
+.create-account form button{
+	margin-left: 100px;
+	border-radius: 8px;
+	padding: 2px;
+	width: 150px;
+	height: 40px;
+	background: #1E90FF;
+	color: #fff;
+	font-size: 18px;
+	margin-top: 15px;
+	border-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.div-formAndImg img{
+	margin-left: 150px;
+	margin-top: 65px;
+}
+
+.create-account span {
+	margin-top: 8px;
+	margin-left: 100px;
+	color: red;
+}

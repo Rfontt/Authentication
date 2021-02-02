@@ -1,0 +1,111 @@
+body {
+	margin: 0;
+}
+
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+}
+
+.asideAndImage {
+	display: flex;
+	flex-direction: column;
+	background: white;
+}
+
+.asideAndImage img{
+	width: 550px;
+}
+
+.asideAndImage h1 {
+	text-align: center;
+	color: red;
+}
+
+.SignIn_aside {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 700px;
+	background: white;
+	flex-direction: column;
+
+}
+
+.SignIn_aside form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.SignIn_aside form legend {
+	margin-bottom: 10px;
+	font-size: 30px;
+	color: #1E90FF;
+	font-weight: bold;
+}
+
+.SignIn_aside form span{
+	margin-top: 8px;
+	color: gray;
+
+}
+
+.SignIn_aside form button{
+	border-radius: 8px;
+	padding: 2px;
+	width: 150px;
+	height: 40px;
+	background: #1E90FF;
+	color: #fff;
+	font-size: 18px;
+	margin-top: 12px;
+	border-color: #fff;
+
+}
+
+.SignIn_aside form input {
+	width: 350px;
+	height: 30px;
+	background: #DCDCDC;
+	box-shadow: 0 0 0 0;
+	border-color: transparent;
+	border-radius: 8px;
+	margin-top: 10px;
+	padding: 5px;
+}
+
+
+.signUp {
+	background: #1E90FF;
+	width: 641px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.signUp h1 {
+	font-size: 50px;
+	color: white;
+}
+
+
+.signUp span {
+	font-size: 20px;
+	color: white;
+}
+
+.signUp button {
+	margin-top: 10px;
+	border-radius: 8px;
+	padding: 2px;
+	width: 150px;
+	height: 40px;
+	background: #1E90FF;
+	color: #fff;
+	font-size: 18px;
+	border-color: #fff;
+}
